@@ -13,9 +13,9 @@ public class Recreativos {
 		
 		vJuegos[0]=juego1;
 		vJuegos[1] = juego2;
-		vJuegos[1] = juego3;
+		vJuegos[2] = juego3;
 		for (int i = 0; i <vJuegos.length;i++) {
-			System.out.println(vJuegos[i]);
+			System.out.println(vJuegos[i].toString());
 		}
 	}
 

@@ -14,8 +14,23 @@ public class Juego {
 		this.multijugador=false;
 		
 		
+		
 	}
 
+
+
+	public Juego(int record,String nombre, int registro, boolean multijugador) {
+		super();
+		this.nombre = nombre;
+		this.registro = registro;
+		this.multijugador = multijugador;
+	}
+	public void ponerRecord(int puntuacion) {
+		record = puntuacion;
+	}
+	public void setRecord (int record) {
+		this.registro=registro;
+	}
 
 
 	public String getNombre() {
@@ -51,6 +66,15 @@ public class Juego {
 	public void setMultijugador(boolean multijugador) {
 		this.multijugador = multijugador;
 	}
+
+
+
+	@Override
+	public String toString() {
+		return nombre + "------" + registro;
+	}
+	
+
 
 
 }

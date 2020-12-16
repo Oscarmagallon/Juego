@@ -1,4 +1,6 @@
-package juego;
+    package juego;
+    package juego;
+    package juego;
 
 public class Juego {
 	
